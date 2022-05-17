@@ -1,0 +1,10 @@
+.contactMeForm{
+    margin: 100px;
+    width: 400px;
+    background-color: lightslategray;
+    border-radius: 30px;
+}
+.formDescription{
+    font-size: 21px;
+    color: black;
+}
