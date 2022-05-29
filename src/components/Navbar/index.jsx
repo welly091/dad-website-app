@@ -25,7 +25,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
                     <Nav.Link className="text-secondary" href="/" eventKey="link-1">Home</Nav.Link>
                     <Nav.Link className="text-secondary" href="/about" eventKey="link-2">About</Nav.Link>
                     <Nav.Link className="text-secondary" href="/classes" eventKey="link-3">Classes</Nav.Link>
-                    <Nav.Link className="text-secondary" href="/Contact" eventKey="link-4">Contact Me</Nav.Link>
+                    <Nav.Link className="text-secondary" href="/contact" eventKey="link-4">Contact Me</Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
