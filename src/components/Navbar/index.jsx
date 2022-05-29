@@ -22,10 +22,10 @@ export default () =>{
                 <Navbar.Brand href='/'>山水老師</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse id="basic-navbar-nav" className='nav-justified' >
-                    <Nav.Link className="text-secondary" href="/">Home</Nav.Link>
-                    <Nav.Link className="text-secondary" href="/about">About</Nav.Link>
-                    <Nav.Link className="text-secondary" href="/classes">Classes</Nav.Link>
-                    <Nav.Link className="text-secondary" href="/Contact">Contact Me</Nav.Link>
+                    <Nav.Link className="text-secondary" href="/" eventKey="link-1">Home</Nav.Link>
+                    <Nav.Link className="text-secondary" href="/about" eventKey="link-2">About</Nav.Link>
+                    <Nav.Link className="text-secondary" href="/classes" eventKey="link-3">Classes</Nav.Link>
+                    <Nav.Link className="text-secondary" href="/Contact" eventKey="link-4">Contact Me</Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
