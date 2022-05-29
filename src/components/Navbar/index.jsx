@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
-export default () =>{  
+ function MyNav(){  
     return (
         // <div className="container ">
         //     <nav className='navbar navbar-expand-lg navbar-light'>
@@ -32,3 +32,5 @@ export default () =>{
     )
   
 }
+
+export default MyNav;
